@@ -5,8 +5,10 @@ body{
 .main-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-flow: row;
+    flex-wrap: wrap;
+    gap: 1rem;
     /* justify-content: center; */
 }
 
@@ -87,3 +89,79 @@ body{
 .component_two .basic-bottom h3{
     color: royalblue;
 }
+
+/* Component 3 - Basic w/ header */
+
+.component_three{
+    background-color: white;
+    /* height: 430px; */
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top, h3 h4{
+    margin-left: 1rem;
+    /* background-color: goldenrod; */
+}
+.component_three img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.basic-bottom .bottom3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.component_three .basic-bottom{
+    display: flex;
+    flex-direction: column;
+    /* background-color: salmon; */
+}
+
+
+
+/* Component Four - Basic w/ only buttons */
+
+.component_four .basic-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* Component Five - Basic w/ only buttons */
+
+.basic-bottom5{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  padding: 20px;
+  background-color: red;
+    
+}
+
+/* Component 6 - Horizontal Image and Text */
+
+.component6{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: honeydew;
+    border-radius: 5px;
+}
+
+.header6 .img6{
+  width: 100px;
+  height: 100px;
+}
+
+.header6{
+    display: flex;
+    flex-direction: row;
+}
+
+
